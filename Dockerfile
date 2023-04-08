@@ -13,9 +13,12 @@ RUN apt-get update && apt-get install -y \
 # install R packages required 
 # (change it depending on the packages you need)
 RUN R -e "install.packages('shinydashboard', repos='http://cran.rstudio.com/')"
+RUN R -e "install.packages('tidyverse')"
 # Copy configuration files into the Docker image
 COPY shiny-server.conf  /etc/shiny-server/shiny-server.conf
 COPY app.R /srv/shiny-server/app1/app.R
+
+COPY data/ /srv/shiny-server/app1/data/
 RUN rm /srv/shiny-server/index.html
 # Make the ShinyApp available at port 8080
 EXPOSE 8080
