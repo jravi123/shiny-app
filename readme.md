@@ -33,14 +33,17 @@ Here are the steps:
 
 ### Create a project
 
-To open cloud shell, navigate to https://console.cloud.google.com/ and first create a project. 
+On Google Cloud, everything begins with creating a project;
+Navigate to https://console.cloud.google.com/ and first create a project. 
 <img src='img/project-select.png' />
 
 Give some name to your project 
 
 ### Activate Cloud Shell
 
-From the console page, click on 'Activate Cloud Shell' button on the top right
+GCP provides a free computing environment that we can use to build, test etc.. This is called Google Cloud Shell. 
+
+To access this computing platform, from the console page, click on 'Activate Cloud Shell' button on the top right
 
 <img src='img/cloud-shell.png' />
 
@@ -48,7 +51,7 @@ This will open a terminal in the bottom pane
 
 ### Clone the shiny project
 
-From the terminal clone this project with the below command
+From the cloud shell terminal clone this project with the below command
 
 `git clone https://github.com/jravi123/shiny-app.git`
 
