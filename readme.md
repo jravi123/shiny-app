@@ -1,6 +1,6 @@
 # Shiny App Deployed on Google Cloud using Docker
 
-This project contains the following files:
+This project contains the following main files:
 
  ### Dockerfile
  This dockerfile configures to use the docker image from this URL:https://hub.docker.com/r/rocker/shiny-verse
@@ -34,7 +34,8 @@ Here are the steps:
 ### Create a project
 
 On Google Cloud, everything begins with creating a project;
-Navigate to https://console.cloud.google.com/ and first create a project. 
+navigate to https://console.cloud.google.com/ and first create a project as shown below
+
 <img src='img/project-select.png' />
 
 Give some name to your project 
