@@ -1,4 +1,4 @@
-## Shiny App Deployed on Docker
+# Shiny App Deployed on Google Cloud using Docker
 
 This project contains the following files:
 
@@ -24,20 +24,29 @@ This shell executable file is used by the docker to create the necessary directo
 
 This is the main Shiny app. 
 
-### Building the docker image
+## Building the docker image
 Docker is a tool that is used to automate the deployment of applications in `containers` so that applications can work seamlessly in different operating systems and environments with no changes to the application.
 
-While you can install Docker on your computer and follow the steps below, it is easier to use Google Cloud Shell to get started with these steps without any installation as everything that is needed are already installed here.
+While you can install Docker on your computer and follow the steps below, it is easier to use Google Cloud Shell to get started with these steps without any installation as everything that is needed are already installed here. 
+
+Here are the steps:
+
+### Create a project
 
 To open cloud shell, navigate to https://console.cloud.google.com/ and first create a project. 
 <img src='img/project-select.png' />
+
 Give some name to your project 
 
-click on 'Activate Cloud Shell' button on the top right
+### Activate Cloud Shell
+
+From the console page, click on 'Activate Cloud Shell' button on the top right
 
 <img src='img/cloud-shell.png' />
 
 This will open a terminal in the bottom pane
+
+### Clone the shiny project
 
 From the terminal clone this project with the below command
 
