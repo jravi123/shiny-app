@@ -83,3 +83,18 @@ This step will retrieve your code from GitHub and deploy to on GCP and will prov
 
 https://shiny-app-z2dwtb4qlq-uc.a.run.app/
 
+
+## Docker update instructions
+If you want to recreate the docker image again follow these steps:
+* stop the docker using `docker stop #hascode_of_container`
+* rebuild the docker again and start the container
+
+To see all the running containers use the below command
+
+`docker ps`
+
+This will show the hashcodes of all the running containers. Choose the one you want to stop using 
+
+`docker stop 3hashcode`
+
+
