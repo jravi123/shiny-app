@@ -110,3 +110,6 @@ server <- function(input, output) {
   output$summarize_data <- renderTable(filter_tb())
   output$plot <- renderPlot(plot())
 }
+
+# Run the app ----
+shinyApp(ui = ui, server = server)
